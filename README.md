@@ -1,0 +1,2 @@
+# BasicRPCFramework
+BasicRPCFramework是一款基于Nacos实现的基础RPC框架，接口抽象良好，模块耦合度低。 首先基于Java原生Scoket与序列化机制，通过动态代理和反射调用的方式实现了简易的RPC流程。随后进行优化，使用Netty代替Scoket，实现可配置的四种序列化算法和两种负载均衡算法，引入注册中心Nacos，并在服务端提供了基于注解的自动注册和自动注销服务。
